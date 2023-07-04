@@ -1,0 +1,53 @@
+/* General styles */
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+  }
+  
+  .container {
+    max-width: 1200px;
+    margin: 0 auto;
+    overflow: hidden;
+    border: 1px solid black;
+  }
+  
+  section {
+    float: left;
+    width: 33.33%;
+    border: 1px solid black;
+    background-color: #f2f2f2;
+    padding: 20px;
+  }
+  
+  .section-header {
+    position: relative;
+    text-align: right;
+    background-color: #ffcc00;
+    padding: 10px;
+    border-bottom: 1px solid black;
+  }
+  
+  .section-header h2 {
+    margin: 0;
+    font-size: 1.25em;
+    color: #333333;
+  }
+  
+  section p {
+    margin-top: 20px;
+  }
+  
+  /* Responsive styles */
+  @media screen and (max-width: 991px) {
+    section {
+      width: 50%;
+    }
+  }
+  
+  @media screen and (max-width: 767px) {
+    section {
+      width: 100%;
+    }
+  }
+  
